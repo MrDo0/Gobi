@@ -1,0 +1,115 @@
+.Winter {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+.left {
+  margin: 3%;
+  width: 45%;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+.title {
+  margin: 25px auto;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 2.875rem;
+}
+.text {
+  margin: 25px auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+.button {
+  margin: auto;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: none;
+  align-self: center;
+  background-color: #272727;
+}
+.right {
+  margin: 3%;
+  width: 55%;
+}
+.top {
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom {
+  padding: auto;
+  height: 5%;
+  text-align: end;
+}
+.bottomText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #585858;
+  margin: auto;
+  padding: 10px;
+
+  align-self: center;
+}
+.pictureLeft {
+  width: 65%;
+  background: url(../../assets/image/background.png) no-repeat center left;
+  background-size: cover;
+}
+.pictureRight {
+  width: 34%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.pictureRightTop {
+  height: 49%;
+  background: url(../../assets/image/lady1.png) no-repeat center center;
+  background-size: cover;
+}
+.pictureRightBottom {
+  height: 49%;
+  background: url(../../assets/image/lady2.png) no-repeat center center;
+  background-size: cover;
+}
+@media (max-width: 700px) {
+  .Winter {
+    height: 80vh;
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .left {
+    margin: 3%;
+    height: 50%;
+    width: 94%;
+  }
+  .right {
+    margin: 3%;
+    height: 50%;
+    width: 94%;
+  }
+
+  .top {
+    height: 100%;
+    width: 100%;
+  }
+  .bottom {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .Winter {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  .Winter {
+    height: 90vh;
+  }
+}

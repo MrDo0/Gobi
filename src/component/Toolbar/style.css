@@ -1,0 +1,36 @@
+.toolbar {
+  height: 41.02px;
+  width: 100%;
+  background-color: #3a416f;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+}
+.header {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.language {
+  margin-left: 1rem;
+}
+.link {
+  color: white;
+  margin-left: 1rem;
+}
+.loglink {
+  color: white;
+  margin-left: 1rem;
+}
+@media (max-width: 1023px) {
+  .hide {
+    display: none;
+  }
+}

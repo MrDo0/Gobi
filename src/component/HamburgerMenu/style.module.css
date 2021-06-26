@@ -1,0 +1,24 @@
+.HamburgerMenu {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  padding: 15px 5px;
+  margin-left: 1rem;
+  box-sizing: border-box;
+}
+
+.HamburgerMenu div {
+  background-color: white;
+  height: 3px;
+  margin: 10% 0;
+  border-radius: 1%;
+}
+.HamburgerMenu div:nth-child(2) {
+  background-color: white;
+  width: 90%;
+  height: 3px;
+  margin: 10% 0;
+  border-radius: 3%;
+}

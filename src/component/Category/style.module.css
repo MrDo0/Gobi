@@ -1,0 +1,50 @@
+.Category {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  position: relative;
+}
+.Title {
+  height: 10%;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.Component {
+  position: relative;
+  display: flex;
+
+  height: 90%;
+  padding: 0 3%;
+}
+
+.picture {
+  flex: 1;
+}
+@media (max-width: 767px) {
+  .Category {
+    height: 45vh;
+  }
+  .Component {
+    margin: 0;
+    padding: 0;
+  }
+  .Component :nth-child(3n + 0) {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .Category {
+    height: 50vh;
+  }
+  .Component {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .Category {
+    height: 80vh;
+  }
+}

@@ -1,0 +1,42 @@
+.SideBar {
+  width: 280px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 200;
+  padding: 32px 16px;
+}
+
+.Logo {
+  height: 15%;
+}
+
+.section a:hover,
+.section a:active,
+.section a.active {
+  border-bottom: 3px solid red;
+}
+.title {
+  color: black;
+  font-size: 30px;
+  font-family: "Shippori Mincho", serif;
+  line-height: 30px;
+}
+.text {
+  color: black;
+  font-family: "Shippori Mincho", serif;
+  font-size: 10px;
+}
+@media (min-width: 1024px) {
+  .SideBar {
+    display: none;
+  }
+}
+.Open {
+  transform: translateX(0);
+}
+.Close {
+  transform: translateX(-100%);
+}

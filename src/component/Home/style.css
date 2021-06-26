@@ -1,0 +1,99 @@
+.home {
+  height: 95vh;
+  background: url(../../assets/image/background.png) no-repeat center center;
+  background-size: cover;
+  justify-items: center;
+}
+.stickybar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.menu {
+  flex: 2;
+  color: white;
+  align-items: center;
+}
+.hamburgerMenu {
+  display: none;
+}
+.logo {
+  flex: 2;
+  color: white;
+}
+.endsearch {
+  flex: 2;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  font-family: "Shippori Mincho", serif;
+  line-height: 30px;
+}
+.text {
+  color: white;
+  font-family: "Shippori Mincho", serif;
+  font-size: 10px;
+}
+.search {
+  height: 30px;
+  border-radius: 5px;
+
+  padding-left: 10px;
+  z-index: 100;
+}
+.icon {
+  height: 20px;
+  color: wheat;
+  margin-left: 25px;
+}
+.icondiv {
+  position: static;
+  display: inline;
+}
+.inputdiv {
+  position: static;
+  display: inline;
+}
+.Sale {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  .home {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburgerMenu {
+    flex: 2;
+    color: white;
+    align-items: center;
+    display: flex;
+  }
+  .inputdiv {
+    display: none;
+  }
+  .Sale {
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 70vh;
+    margin-bottom: 50px;
+    height: 50%;
+    padding: auto;
+    justify-self: center;
+    align-self: center;
+  }
+}
