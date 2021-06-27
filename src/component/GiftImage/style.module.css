@@ -1,0 +1,41 @@
+.GiftImage {
+  flex: 1;
+  margin: 0 5px;
+  display: flex;
+  flex-flow: column;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-align: start;
+  margin-top: 10px;
+}
+.color {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: start;
+}
+.price {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+.basicPrice {
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.disPrice {
+  color: red;
+  font-family: "Roboto", sans-serif;
+}

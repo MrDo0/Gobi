@@ -1,3 +1,21 @@
 .Gift {
-  height: 90vh;
+  margin: 0 17%;
+  display: flex;
+  flex-flow: column;
+}
+.title {
+  flex: 1;
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #4f5255;
+  font-style: normal;
+  padding: 10px 0;
+  text-align: center;
+  align-self: center;
+}
+.section {
+  flex: 15;
+  display: flex;
+  flex-flow: column;
 }
