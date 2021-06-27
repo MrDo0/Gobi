@@ -39,3 +39,21 @@
   color: red;
   font-family: "Roboto", sans-serif;
 }
+@media (max-width: 768px) {
+  .GiftImage {
+    margin: 0;
+  }
+  .image {
+    flex: 1;
+    width: 180px;
+  }
+}
+@media (min-width: 375px) {
+  .GiftImage {
+    margin: 0 5px;
+  }
+  .image {
+    flex: 1;
+    width: 170px;
+  }
+}

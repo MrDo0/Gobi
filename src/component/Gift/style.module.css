@@ -19,3 +19,8 @@
   display: flex;
   flex-flow: column;
 }
+@media (max-width: 768px) {
+  .Gift {
+    margin: 5px;
+  }
+}
